@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDom from 'react-dom';
 
-const element = <h1>Hello from create React App</h1>;
+import TodoContainer from './components/TodoContainer';
 
-ReactDom.render(element, document.getElementById('root'));
+ReactDom.render(<TodoContainer />, document.getElementById('root'));
