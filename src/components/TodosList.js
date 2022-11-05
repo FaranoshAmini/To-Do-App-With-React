@@ -5,8 +5,7 @@ class TodoList extends React.component {
     return (
       <ul>
         {this.props.todos.map((todo) => (
-          // eslint-disable-next-line react/jsx-key
-          <li>{todo.title}</li>
+          <li key={todo.id}>{todo.title}</li>
         ))}
       </ul>
     );
