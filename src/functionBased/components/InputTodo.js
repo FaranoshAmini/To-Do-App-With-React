@@ -25,7 +25,6 @@ function InputTodo({ addTodoProps }) {
         title: '',
       });
     } else {
-      // eslint-disable-next-line no-alert
       alert('Please write item');
     }
   };
