@@ -1,7 +1,5 @@
 /* eslint-disable import/no-duplicates */
 import React, { useState, useEffect } from 'react';
-// eslint-disable-next-line no-unused-vars
-import { FaCalendar } from 'react-icons/fa';
 import { FaTrash } from 'react-icons/fa';
 import PropTypes from 'prop-types';
 import styles from './TodoItem.module.css';
