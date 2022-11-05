@@ -1,4 +1,6 @@
 import React from 'react';
+// eslint-disable-next-line no-unused-vars
+import Header from './Header';
 
 // eslint-disable-next-line react/prefer-stateless-function
 class TodoContainer extends React.Component {
